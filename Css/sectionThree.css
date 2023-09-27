@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Inter:wght@200&family=Jomhuria&family=Mulish:wght@800&family=Open+Sans:ital,wght@0,500;1,300&family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.secionThree{
+    width: 100%;
+    height: auto;
+    background-color: rgb(224, 224, 224);
+    padding-bottom: 4em;
+}
+.contenr-for-secionThree{
+    position: relative;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.first-icon{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: 2.2em;
+    padding:  1.2em .4em;
+
+    color: #1c2752;
+    background-color: white;
+
+}
+.first-icon img{
+    margin: .5em .5em .5em 0;
+
+}
+.first-icon h3{
+    display: flex;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+
+}
+.title-for-secion{
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.title-for-secion h1{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Mulish', sans-serif;
+    color: #1c2752;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.title-for-secion p{
+    display: flex;
+    margin-bottom: 10px;
+    font-family: 'inter', sans-serif;
+    color: #8c8c8c;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    
+}
+.contenr-for-card{
+    
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-flow: row wrap;
+
+}
+.card{
+    display: flex;
+    width: 30%;
+    min-width: 19em;
+    height: auto;
+    margin: 1%;
+    background-color: #1c2752;
+    flex-direction: column;
+    padding: 2em;
+    font-family: Inter, sans-serif;
+    
+}
+.card img{
+    width: 3em;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+.card h3{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    font-family: Mulish, sans-serif;
+    color: #ffb342;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.card p{
+    margin-bottom: 25px;
+    color: #d2d2d2;
+
+}
+.card a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+.card a:hover{
+    color: #ffb342;
+}
